@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* ====== COLORES INSTITUCIONALES (aproximados) ====== */
+:root {
+    --azul-uas: #002b7f;
+    --dorado-uas: #c7a008;
+    --gris: #f2f2f2;
+}
+
+/* ====== ENCABEZADO ====== */
+.encabezado {
+    background-color: var(--gris);
+    padding: 20px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+.logos img {
+    width: 110px;
+}
+
+.titulo h1 {
+    font-size: 32px;
+    color: var(--azul-uas);
+}
+
+.titulo h2 {
+    font-size: 20px;
+    color: var(--dorado-uas);
+}
+
+/* ====== MENÚ ====== */
+.menu {
+    background-color: var(--azul-uas);
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: var(--dorado-uas);
+}
+
+/* ====== IMAGEN DESTACADA ====== */
+.banner {
+    background-color: #ddd;
+    height: 250px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* ====== NOTICIAS ====== */
+.noticias {
+    padding: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 48%;
+}
+
+.img-temp {
+    background-color: #ccc;
+    height: 150px;
+    margin: 10px 0;
+}
+
+/* ====== CONVOCATORIAS ====== */
+.convocatorias {
+    padding: 25px;
+    background-color: var(--gris);
+}
+
+.convocatorias ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* ====== FOOTER ====== */
+.footer {
+    background-color: var(--azul-uas);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+    width: 100%;
+    margin: 5px 0 10px;
+    padding: 6px;
+}
+
+.form-contacto button {
+    padding: 10px;
+    background-color: var(--dorado-uas);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-logos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.footer-logos img {
+    width: 90px;
+}
